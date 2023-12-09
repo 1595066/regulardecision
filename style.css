@@ -2,13 +2,14 @@ p{
   font-size: 3em;
   padding-top: 100px;
   padding-bottom: 100px;
-  width: 100%;
+  background-position: auto;
   font-family: Georgia;
   text-align: center;
   color:white;
   margin: 0;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Morgan_Hall_of_Williams_College_in_the_fall_%2827_October_2010%29.jpg/290px-Morgan_Hall_of_Williams_College_in_the_fall_%2827_October_2010%29.jpg);
+  background-color:lightgreen;
   background-size: 100% 100%;
+  background-position: auto;
 }
 
 
@@ -18,18 +19,49 @@ h2 {
   font-weight: 100;
   font-size: 22px;
   padding-bottom: 0px;
-  text-align: center;
   font-family: Georgia;
 }
 
 
-#introduction {
-  margin-top: 0px;
-}
+
 table,th,td{
   border: 1px solid;
   border-color: black;
+  text-align: center;
 }
 th{
    background-color: lightgreen;
+}
+
+h3{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
 }
